@@ -61,6 +61,7 @@ body{
     font-weight: 400;
     font-size: 1rem;    
     width: 85%;
+    background-color: var(--button-background);
 }
 
 
@@ -106,17 +107,10 @@ body{
 }
 
 /*Terceira Seção*/
-.terciario__botao{
-    background-color: var(--button-background);
-    margin-bottom: 0.8em
-}
-.container__conteudo{
-    text-align: left;
-}
-.terciario__conteudo{
-    margin-bottom: 0.3em
+.bloco_conteudo{
+    margin: 0 6em 2em 0;
 }
 
-.terciario__imagem{
-    width: 80%;
+.imagem_teste{
+    width: 90%
 }
