@@ -40,7 +40,7 @@ body{
     text-align: center;
 }
 
-.container__flex{
+.container__flex{   
     margin: 0 6em;
     display: flex;
     flex-direction: column;
@@ -80,10 +80,11 @@ body{
     font-size: 0.75rem;
 }
 
-/*Segunda Seção*/
+/*Segunda e Terceira Seção*/
 
 .container__conteudo{
     text-align: left;
+    padding: 2em;
 }
 
 .secundario{
@@ -97,20 +98,74 @@ body{
 .container__conteudo__titulo{
     font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 0.2em;
 }
 
 .container__conteudo__texto{
     font-size: 1rem;
     font-weight: 400;
     color: var(--text-gray);
+
+
 }
 
-/*Terceira Seção*/
-.bloco_conteudo{
-    margin: 0 6em 2em 0;
+.secundario__botao{
+    margin-top: 1em;
+    display: inline-block;
+    width: auto;
 }
 
-.imagem_teste{
-    width: 90%
+/*Quarta Section*/
+
+.dispositivos{
+    background-color: var(--page-background);
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+.dispositivos__titulo{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-color)
+}
+
+.dispositivos__lista{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 6em 0 ;
+}
+
+.lista__item{
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+/*Footer*/
+
+.rodape{
+    background-color: var(--page-background);
+    text-align: center;
+    margin: 0 10em;
+}
+
+.rodape__lista{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 2em 0;
+}
+
+.rodape__conteudo{
+    font-size: 0.87em;
+    color: var(--text-gray);
+    margin: 2em 0;
+}
+
+.rodape__lista__item > a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.rodape__lista__item > a:hover{
+    color: var(--button-background)
 }
